@@ -42,7 +42,7 @@
 |------|------|
 | `calculate_residuals.py` | 数据预处理、巡航快照提取、Ridge 基准建模、残差计算 |
 | `analyze_residual_trend.py` | OEM Phase II 指标计算、健康状态评估、变点检测、趋势漂移可视化报告生成（基于 ZPOIL_NORM） |
-| `detect_coking_blockage.py` | **结焦/堵塞物理极限监控**，直接使用 ACTUAL_OILPRS 绝对值对照 70psi 红线，结合油温隔离判定排除物理干扰 |
+| `detect_coking_blockage.py` | **结焦/堵塞监控**，直接使用 ACTUAL_OILPRS 绝对值对照 70psi 红线，结合油温隔离判定排除物理干扰 |
 
 ---
 
