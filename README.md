@@ -140,7 +140,7 @@ $$
 - $\Delta ALT = ALT - 30000\,\text{ft}$ （参考高度）
 - 前 30% 航段作为基线训练集，后续所有点用同一模型预测并求残差
 
-### 2. OEM Phase II 长短均值偏差 (`analyze_residual_trend.py`)
+### 2. 长短均值偏差 (`analyze_residual_trend.py`)
 
 $$
 \Delta_{\text{LT-ST}} = \text{Mean}_{\text{short}}(R) - \text{Mean}_{\text{long}}(R)
